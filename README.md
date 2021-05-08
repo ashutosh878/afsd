@@ -14,6 +14,13 @@
 
   <input type="submit" id="button" value="Send Email" >
 </form>
+
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('user_m7YziIlMKzRBrkMD4OcGH')
+</script>
 <script>
 const btn = document.getElementById('button');
 
